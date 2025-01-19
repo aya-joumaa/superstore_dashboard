@@ -1,0 +1,64 @@
+/* This Section Is Allocated For Body and Main Content Style*/
+
+body {
+    height: 100vh;
+}
+
+.main-content {
+    margin-left: 80px;
+    font-family: "Roboto";
+}
+
+.main-content .header {
+    background: radial-gradient(circle at 94.02% 88.03%, #54a4ff, transparent 100%), radial-gradient(circle at 25.99% 27.79%, #000000, transparent 100%), radial-gradient(circle at 50% 50%, #000000, #000000 100%);
+}
+
+/* This Section Is Allocated For Header Style*/
+.main-content .header .header-emoji {
+    max-width: 65px;
+    max-height: 65px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.main-content .header .header-title {
+    margin-top: 1rem;
+    text-align: center;
+    font-weight: 100;
+    font-size: 4rem;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 6px;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.main-content .header .header-description {
+    margin-top: 1rem;
+    text-align: center;
+    font-weight: 120;
+    font-size: 21px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    letter-spacing: 1px;
+    max-width: 800px;
+}
+
+/* This Section Is Allocated For Section Wrapper Style*/
+.section-wrapper {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1661px;
+    padding: 0 40px;
+}
+
+@media (max-width: 1480px) {
+    .section-wrapper {
+        padding: 0 25px;
+    }
+}
+
+@media (max-width: 575px) {
+    .section-wrapper {
+        padding: 0 15px;
+    }
+}

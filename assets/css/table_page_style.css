@@ -1,0 +1,324 @@
+.table-filters {
+    width: 100%;
+    margin-top: 54px;
+    margin-bottom: 56px;
+}
+
+/* ----------------------------------------------------------------------------------------------------------------- */
+/* This Section Is Allocated For Filters dropdowns Sections */
+/* ----------------------------------------------------------------------------------------------------------------- */
+
+.table-dropdowns .Select-control {
+    appearance: none;
+    outline: 10px red;
+    border: 1px solid #366eaa;
+    box-shadow: none;
+    flex: 1;
+    padding: 0 1em;
+    color: #fff;
+    background-color: #fff;
+    background-image: none;
+    cursor: pointer;
+    border-radius: .25em;
+    width: 100% !important;
+    overflow: hidden;
+}
+
+.table-dropdowns .Select-control::after {
+    content: '\25BC';
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 12px;
+    background: #e5e5e5;
+    /*transition: .25s all ease;*/
+    pointer-events: none;
+}
+
+/* Transition */
+.table-dropdowns .Select-control::after {
+    top: -5px;
+    color: #fa92f1;
+}
+
+.table-dropdowns .Select-control:hover::after {
+    color: #f39c12;
+}
+
+.table-dropdowns .Select-control .Select-placeholder {
+    color: #202020;
+}
+
+.table-dropdowns .Select-control .Select-clear {
+    margin-right: 10px;
+    color: #202020;
+}
+
+.table-dropdowns .Select-control .Select-clear:hover {
+    color: #f39c12;
+}
+
+.table-dropdowns .Select-control .Select-multi-value-wrapper .Select-value .Select-value-label {
+    color: #202020 !important;
+}
+
+/* ----------------------------------------------------------------------------------------------------------------- */
+/* This Section Is Allocated For Filers dropdowns Section's Style */
+/* ----------------------------------------------------------------------------------------------------------------- */
+.table-date-filters .DateRangePicker .DateRangePickerInput {
+    width: 376px;
+    height: 36px;
+    border: 1px solid #366eaa;
+}
+
+
+.table-date-filters .DateRangePicker .DateInput_input {
+    height: 34px;
+}
+
+.table-date-filters .DateRangePicker .DateInput {
+    width: 160px;
+}
+
+.table-date-filters .DateRangePicker .DateRangePickerInput_arrow_svg {
+    fill: #fa92f1;
+    font-weight: bold;
+}
+
+
+/* ----------------------------------------------------------------------------------------------------------------- */
+/* This Section Is Allocated For Table Section's Style */
+/* ----------------------------------------------------------------------------------------------------------------- */
+.analytics-table-section {
+    width: 100%;
+    margin-top: 54px;
+    margin-bottom: 56px;
+}
+
+.analytics-table {
+    overflow: hidden;
+    box-shadow: 10px 0 20px 0 rgba(0, 0, 0, .1);
+}
+
+.analytics-table .dash-spreadsheet-container {
+    width: 100%;
+    background: #FFF;
+    color: #024457;
+    border-radius: 10px;
+    border: 1px solid #4c8de5;
+    overflow-x: auto;
+    scrollbar-color: #6c7ae0 #f5f5f5;
+}
+
+/*.analytics-table .cell-table tr:nth-child(even) td {*/
+/*    background-color: #f8f6ff !important;*/
+/*}*/
+
+/*.analytics-table .cell-table tr:nth-child(odd) td {*/
+/*    background: #FFFFFF !important;*/
+/*}*/
+
+.analytics-table .cell-table tr th {
+    width: 200px;
+    min-width: 200px;
+    max-width: 200px;
+    text-align: left !important;
+    height: 50px;
+}
+
+.analytics-table .cell-table tr th.dash-header {
+    height: 70px;
+    background: #6c7ae0 !important;
+}
+
+.analytics-table .cell-table tr th .column-header-name {
+    margin-left: 5px;
+    font-weight: bolder;
+    color: #FFFFFF;
+    text-transform: uppercase;
+
+}
+
+.analytics-table .cell-table tr th.dash-filter {
+    background: #f5f5f5 !important;
+}
+
+.analytics-table .cell-table tr th.dash-filter input[type="text"] {
+    margin-left: 5px;
+    text-align: left !important;
+    font-weight: 100;
+    color: #6c7ae0 !important;
+}
+
+.analytics-table .cell-table td {
+    width: 200px;
+    min-width: 200px;
+    max-width: 200px;
+    text-align: left;
+    height: 50px;
+}
+
+.analytics-table .previous-next-container button.last-page, button.first-page {
+    color: #366eaa;
+}
+
+
+.analytics-table .previous-next-container button.next-page, button.previous-page {
+    color: hotpink;
+}
+
+
+/* ----------------------------------------------------------------------------------------------------------------- */
+/* This Section Is Allocated For Add Row Form Section's Style */
+/* ----------------------------------------------------------------------------------------------------------------- */
+.add-row-form-section {
+    width: 100%;
+    margin-top: 54px;
+    padding: 20px 0;
+    background: radial-gradient(circle at 94.02% 88.03%, #ff94fb, transparent 100%), radial-gradient(circle at 25.99% 27.79%, #000000, transparent 100%), radial-gradient(circle at 50% 50%, #000000, #000000 100%);
+}
+
+.add-row-form-section .heading {
+    font-size: 50px;
+    font-family: "Calibri Bold";
+    color: #FFFFFF;
+    line-height: 61px;
+    margin-bottom: 70px;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+.add-row-form {
+    width: 1400px;
+    padding: 15px 30px 30px 15px;
+    background: rgba(11, 13, 24, .6);
+    margin: 100px auto;
+    border-radius: 10px;
+}
+
+.add-row-form .form-group {
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.add-row-form .form-group .form-input {
+    width: 220px;
+    border: none;
+    background: #fff;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 13px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #222;
+    display: block;
+    position: relative;
+    z-index: 9;
+    margin-top: 10px;
+}
+
+.add-row-form .Select-control {
+    border-radius: 5px;
+    cursor: pointer;
+    width: 220px;
+    height: 50px;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #222;
+}
+
+.add-row-form .Select-control .Select-placeholder {
+    top: 7px;
+    left: 8px;
+    color: #6d6a6a;
+}
+
+.add-row-form .Select-control .Select-multi-value-wrapper .Select-value {
+    top: 7px;
+    left: 8px;
+}
+
+
+.add-row-form .Select-control .Select-multi-value-wrapper .Select-value .Select-value-label {
+    color: #6d6a6a !important;
+}
+
+.add-row-form .SingleDatePickerInput {
+    width: 220px;
+    height: 50px;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding-left: 9px;
+}
+
+
+.add-row-form .SingleDatePicker .DateInput_input {
+    height: 49px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #222;
+}
+
+.add-row-form .SingleDatePicker .DateInput {
+    width: 160px;
+}
+
+.add-row-btn {
+    background: #f8ba0f;
+    color: #fff;
+    margin-top: 10px;
+    cursor: pointer;
+    width: 140px;
+    height: 50px;
+    border-radius: 5px;
+    padding: 13px 20px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.add-row-btn:hover {
+    background-color: #ce9906;
+}
+
+@media screen and (max-width: 1500px) {
+    .add-row-form {
+        width: 1200px;
+    }
+
+    .form-group {
+        width: 1000px;
+        flex-direction: column;
+    }
+
+    .add-row-form .form-input, .Select-control, .SingleDatePickerInput {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .add-row-form {
+        width: 400px;
+        padding: 30px 1px 30px 1px;
+    }
+
+    .form-group {
+        width: 300px;
+        flex-direction: column;
+    }
+
+    .add-row-form .form-input, .Select-control, .SingleDatePickerInput {
+        width: 70%;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .add-row-form {
+        width: 300px;
+        padding: 20px 2px 20px 2px;
+    }
+}

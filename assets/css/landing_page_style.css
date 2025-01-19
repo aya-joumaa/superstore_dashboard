@@ -1,0 +1,249 @@
+/* This Section Is Allocated For The Recent Data Analytics Styles */
+
+.recent-data {
+    width: 100%;
+    margin-top: 54px;
+    margin-bottom: 56px;
+}
+
+.analytics-container .analytics-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 70px;
+    margin-left: 25px;
+}
+
+.analytics-container .analytics-header .heading {
+    font-size: 50px;
+    font-family: "Calibri Bold";
+    color: #404040;
+}
+
+@media screen and (max-width: 767px) {
+    .analytics-container .analytics-header .heading {
+        font-size: 32px;
+    }
+}
+
+.analytics-container .analytics-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    row-gap: 50px;
+}
+
+@media (max-width: 1177px) {
+    .analytics-container .analytics-cards {
+        flex-wrap: wrap;
+        row-gap: 50px;
+    }
+}
+
+.analytics-container .analytics-cards .analytics-card {
+    width: 313px;
+    height: 275px;
+    background-color: #e5e5e5;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    padding: 0 12px;
+}
+
+@media (max-width: 1920px) {
+    .analytics-container .analytics-cards .analytics-card {
+        width: 336px;
+    }
+}
+
+@media (max-width: 1177px) {
+    .analytics-container .analytics-cards .analytics-card {
+        flex: 1 1 40%;
+    }
+}
+
+@media (max-width: 690px) {
+    .analytics-container .analytics-cards .analytics-card {
+        flex: 1 1 40%;
+    }
+}
+
+.analytics-container .analytics-cards .analytics-card:hover {
+    border: 1px solid #abbdd3;
+    background-color: #e3edf9;
+    transition: background-color 0.5s;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.analytics-container .analytics-cards .analytics-card:hover div:first-child {
+    border-top: 1px solid #abbdd3;
+    border-bottom: 1px solid #abbdd3;
+}
+
+.analytics-container .analytics-cards .analytics-card:hover .attribute-name {
+    transition: top 0.5s;
+    top: 90px;
+}
+
+.analytics-container .analytics-cards .analytics-card:hover .attribute-value {
+    transition: top 0.5s;
+    top: 171px;
+}
+
+.analytics-container .analytics-cards .analytics-card div:first-child {
+    border-radius: 50%;
+    transform: translateY(-50%);
+    background-color: #fff;
+}
+
+.analytics-container .analytics-cards .analytics-card img {
+    width: 55px;
+    hight: 55px;
+}
+
+
+.analytics-container .analytics-cards .analytics-card .attribute-name {
+    position: absolute;
+    top: 100px;
+    text-align: center;
+    font-size: 23px;
+    font-family: "Calibri Bold";
+    padding: 0 5px;
+    color: #404040;
+    transition: top 0.5s;
+}
+
+@media screen and (max-width: 767px) {
+    .analytics-container .analytics-cards .analytics-card .attribute-name {
+        font-size: 20px;
+    }
+}
+
+.analytics-container .analytics-cards .analytics-card .attribute-value {
+    position: absolute;
+    text-align: center;
+    top: 181px;
+    font-size: 23px;
+    font-weight: 300;
+    line-height: 1.1em;
+    transition: top 0.5s;
+    color: #54a4ff;
+    padding: 0 5px;
+}
+
+@media screen and (max-width: 767px) {
+    .analytics-container .analytics-cards .analytics-card .attribute-value {
+        font-size: 18px;
+    }
+}
+
+
+/* This Section Is Allocated For The Nav Cards Styles */
+.pages-nav {
+    width: 100%;
+    background: radial-gradient(circle at 94.02% 88.03%, #ff94fb, transparent 100%), radial-gradient(circle at 25.99% 27.79%, #000000, transparent 100%), radial-gradient(circle at 50% 50%, #000000, #000000 100%);
+    padding: 20px 0;
+}
+
+.pages-nav .heading {
+    font-size: 50px;
+    font-family: "Calibri Bold";
+    color: #FFFFFF;
+    line-height: 61px;
+    margin-bottom: 60px;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+@media screen and (max-width: 767px) {
+    .pages-nav .heading {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .pages-nav .heading {
+        font-size: 36px;
+    }
+}
+
+.pages-nav .pages-cards {
+    width: 100%;
+    margin-bottom: 57px;
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+    flex-wrap: wrap;
+    row-gap: 40px;
+}
+
+@media screen and (max-width: 1285px) {
+    .pages-nav .pages-cards {
+        flex-wrap: wrap;
+        gap: 25px;
+    }
+}
+
+.pages-nav .pages-cards .page-card {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    padding: 24px 20px;
+    flex-basis: 365px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 25px;
+    box-shadow: 0 22px 20px 0px rgba(6, 117, 211, 0.1);
+    background-color: #fff;
+}
+
+@media screen and (max-width: 1285px) {
+    .pages-nav .pages-cards .page-card {
+        flex: 1 1 40%;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .pages-nav .pages-cards .page-card {
+        flex: 1 1 100%;
+    }
+}
+
+.pages-nav .pages-cards .page-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 22px 20px 0px rgba(6, 117, 211, 0.2);
+    border: 1px solid #006eb8;
+    transition: all 0.5s;
+    z-index: 2;
+}
+
+.pages-nav .pages-cards .page-card .page-card__heading {
+    font-size: 25px;
+    font-family: "Calibri Bold";
+    color: #555454;
+}
+
+.pages-nav .pages-cards .page-card a {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 767px) {
+    .pages-nav .pages-cards .page-card .page-card__heading {
+        font-size: 21px;
+    }
+}
+
+.pages-nav .pages-cards .page-card .page-card__text {
+    color: #959595;
+    font-size: 21px;
+    font-weight: 300;
+}
+
+@media screen and (max-width: 767px) {
+    .pages-nav .pages-cards .page-card .page-card__text {
+        font-size: 16px;
+    }
+}

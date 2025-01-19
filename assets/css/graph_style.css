@@ -1,0 +1,72 @@
+.filters-section {
+    width: 100%;
+    margin-top: 54px;
+    margin-bottom: 56px;
+}
+
+
+/* ----------------------------------------------------------------------------------------------------------------- */
+/* This Section Is Allocated For Filters dropdowns Sections */
+/* ----------------------------------------------------------------------------------------------------------------- */
+.filters-section .Select-control {
+    appearance: none;
+    outline: 10px red;
+    border: 1px solid #366eaa;
+    box-shadow: none;
+    flex: 1;
+    padding: 0 1em;
+    color: #fff;
+    background-color: #fff;
+    background-image: none;
+    cursor: pointer;
+    border-radius: .25em;
+    width: 100% !important;
+    overflow: hidden;
+}
+
+.filters-section .Select-control::after {
+    content: '\25BC';
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 12px;
+    background: #e5e5e5;
+    /*transition: .25s all ease;*/
+    pointer-events: none;
+}
+
+/* Transition */
+.filters-section .Select-control::after {
+    top: -5px;
+    color: #fa92f1;
+}
+
+.filters-section .Select-control:hover::after {
+    color: #f39c12;
+}
+
+.filters-section .Select-control .Select-placeholder {
+    color: #202020;
+}
+
+.filters-section .Select-control .Select-clear {
+    margin-right: 10px;
+    color: #202020;
+}
+
+.filters-section .Select-control .Select-clear:hover {
+    color: #f39c12;
+}
+
+.filters-section .Select-control .Select-multi-value-wrapper .Select-value .Select-value-label {
+    color: #202020 !important;
+}
+
+
+.graphs-section {
+    width: 100%;
+    margin-top: 54px;
+    margin-bottom: 56px;
+}
+
+
